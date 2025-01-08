@@ -1,0 +1,20 @@
+.content {
+  padding: 0;
+}
+
+.cv {
+  max-width: 100%;
+  padding: 0;
+  margin: 0;
+  box-shadow: none;
+}
+
+.skills-list__item::before {
+  box-shadow: inset 0 0 0 10px #000;
+}
+
+.contacts__text_linkedin a {
+  display: none;
+}
+
+/*# sourceMappingURL=print.css.map */

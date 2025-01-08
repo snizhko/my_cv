@@ -1,0 +1,21 @@
+{
+  "name": "my_cv",
+  "version": "1.0.0",
+  "description": "Just my CV",
+  "main": "index.js",
+  "scripts": {
+    "scss": "sass src/scss:dist/css --no-source-map",
+    "minify": "postcss dist/css/*.css --dir dist/css",
+    "build": "npm run scss && npm run minify",
+    "watch": "sass --watch src/scss:dist/css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "cssnano": "^7.0.6",
+    "postcss-cli": "^11.0.0",
+    "sass": "^1.83.1"
+  }
+}
